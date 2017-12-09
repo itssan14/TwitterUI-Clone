@@ -5,7 +5,6 @@ import MUIThemeProvider from 'material-ui/styles/MuiThemeProvider'
 
 export default class Post extends Component {
   render() {
-    console.log(this.props)
     let ProfImg = "imgs/" + this.props.Img + ".jpg"
     let PostImg = "imgs/" + this.props.PostImg + ".jpg"
     return (
