@@ -1,0 +1,15 @@
+/* Navigation Items */
+.navitem {
+    color: #73818a !important;
+    background-color: white !important;
+}
+/* Actions on Navitems */
+.navitem:first-child {
+    color: #1da1f2 !important;
+}
+.navitem:active {
+    color: #1da1f2 !important;
+}
+.navitem:hover {
+    color: #1da1f2 !important;    
+}

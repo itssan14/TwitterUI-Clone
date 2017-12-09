@@ -1,0 +1,33 @@
+{
+  "name": "twitter-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "material-ui": "^0.20.0",
+    "normalize-css": "^2.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-snapshot": "^1.3.0"
+  },
+  "scripts": {
+    "start": "cra-babel-extend && react-scripts start",
+    "build": "cra-babel-extend && react-scripts build && react-snapshot",
+    "test": "cra-babel-extend && react-scripts test --env=jsdom",
+    "eject": "cra-babel-extend && react-scripts eject"
+  },
+  "craBabelExtend": {
+    "presets": [],
+    "plugins": [
+      "transform-class-properties"
+    ]
+  },
+  "description": "Twitter UI clone",
+  "main": "server.js",
+  "author": "Sanjay",
+  "license": "ISC",
+  "devDependencies": {
+    "cra-babel-extend": "^1.0.3"
+  }
+}
