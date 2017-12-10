@@ -2,19 +2,14 @@ import React, { Component } from 'react'
 import Paper from 'material-ui/Paper'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Avatar from 'material-ui/Avatar'
-
-const style = {
-  width: "300px",
-  height: '280px'
-}
+import InfoCard from './InfoCard'
 
 class ProfileCard extends Component { 
   render() {
     return (
-      <div>
-        <MuiThemeProvider>
-          <Paper style={style}>
-            <div style={{height: '150px', backgroundColor: '#1DA1F2 '}}>
+      <MuiThemeProvider>
+          <Paper style={{ width: "300px", height: '280px' }}>
+            <div style={{height: '50%', backgroundColor: '#1DA1F2 '}}>
             </div>
             <div style={{ paddingLeft: '20px'}}>
               <Avatar 
@@ -47,9 +42,10 @@ class ProfileCard extends Component {
               </div>
             </div>
           </Paper>
-        </MuiThemeProvider>
-      </div>
+          <InfoCard CardHead="Trends for you"/>
+      </MuiThemeProvider>
     )
   }
 }
+
 export default ProfileCard

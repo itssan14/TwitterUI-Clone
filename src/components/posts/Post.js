@@ -8,7 +8,7 @@ export default class Post extends Component {
     let ProfImg = "imgs/" + this.props.Img + ".jpg"
     let PostImg = "imgs/" + this.props.PostImg + ".jpg"
     return (
-      <div style={{ display: 'block'}}>
+      <div style={{ display: 'inline', paddingTop: '2px'}}>
         <MUIThemeProvider>
           <Card style={{ width: "600px"}}>
             <CardHeader
