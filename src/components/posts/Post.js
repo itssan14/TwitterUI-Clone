@@ -15,13 +15,13 @@ export default class Post extends Component {
               title={
               <div>
                 <b>{this.props.UserName}</b>&nbsp;&nbsp;
-                <span style= {{ color: "#788895"}}>
-                  {this.props.Tag}&nbsp;&nbsp;&nbsp;&nbsp;{this.props.time}
+                <span style= {{ color: "#788895", fontWeight: "300"}}>
+                  {this.props.Tag} &nbsp;{this.props.time}
                 </span>
               </div>}
               avatar={ProfImg}
               subtitle={
-              <div>
+              <div style={{ fontWeight: '300'}}>
                 {this.props.content}
               </div>
               }
@@ -30,8 +30,8 @@ export default class Post extends Component {
                 paddingTop: '6px'
               }}
             />
-            <CardMedia>
-              <img src={PostImg} alt="Preview" style={{ maxHeight: '400px'}}/>
+            <CardMedia style={{ width: '550px', paddingLeft: '25px'}} >
+              <img src={PostImg} alt="Preview"/>
             </CardMedia>
             <CardActions>
               <FlatButton label="Action1" />
