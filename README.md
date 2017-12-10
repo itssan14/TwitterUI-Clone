@@ -4,8 +4,7 @@ A twitter UI clone using ***ReactJS*** of the following pages :-
   * [Search results](https://twitter.com/search?q=aadhaar)
 
 A live version of the site is available at :
-  * [Live Version]()
-  * [Static Rendered]()
+  * [Live Version](https://twitui-clone.herokuapp.com/)
 
 Read my experience building this : [Medium Article]()
 
