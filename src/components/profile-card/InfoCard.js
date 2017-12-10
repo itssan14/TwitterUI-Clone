@@ -10,7 +10,7 @@ export default class InfoCard extends Component {
             <Paper 
               style={{
                 width: "300px",
-                height: '400px',
+                height: '400px'
               }}
             >
               <div style={{paddingLeft: '20px'}}>
@@ -28,7 +28,6 @@ export default class InfoCard extends Component {
                 <TagsList title="DGCA"/>
                 <TagsList title="#TEDTalksIndiaSoch" subtitle="20k Tweets"/>
                 <TagsList title="#MustHaveDevTools"/>
-                
               </div>             
             </Paper>
       </MuiThemeProvider>
