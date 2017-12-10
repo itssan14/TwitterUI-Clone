@@ -1,10 +1,17 @@
 import React from 'react'
 import Avatar from 'material-ui/Avatar'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Paper from 'material-ui/Paper'
 
 const SearchBar = () => (
   <MuiThemeProvider>
-    <div style={{ width: '600px', height: '60px', backgroundColor: '#E8F5FD' }}>
+    <Paper 
+      style={{ 
+        width: '600px', 
+        height: '60px', 
+        backgroundColor: '#E8F5FD' 
+        }}
+    >
       <Avatar 
         src="imgs/profile.jpg"
         size={35}
@@ -25,7 +32,7 @@ const SearchBar = () => (
           paddingBottom: '9px'
         }} 
       />
-    </div>
+    </Paper>
   </MuiThemeProvider>
 )
 

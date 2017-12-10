@@ -16,12 +16,19 @@ This project is a part of my Internship at [Hasura](https://hasura.io/)
 
 * Clone the repository 
 * To get started running the project locally use the following in your terminal :<br><br>
-```sh
-npm install 
-```
-```sh 
-  npm start
-```
+  ```sh
+  npm install 
+  ```
+* The project can be served locally using HTTP (or) HTTPS : 
+  
+  * HTTP :
+    ```sh
+    npm start
+    ```
+  * HTTPS :
+    ```sh
+    npm https
+    ```
 A development version of the webapge will be started at PORT 3000 :<br>
 http://localhost:3000/
 

@@ -15,7 +15,9 @@ export default class Post extends Component {
               title={
               <div>
                 <b>{this.props.UserName}</b>&nbsp;&nbsp;
-                <span style= {{ color: "#788895"}}>{this.props.Tag}</span>
+                <span style= {{ color: "#788895"}}>
+                  {this.props.Tag}&nbsp;&nbsp;&nbsp;&nbsp;{this.props.time}
+                </span>
               </div>}
               avatar={ProfImg}
               subtitle={
