@@ -4,7 +4,7 @@ import Posts from './components/posts/Posts'
 import SearchBar from './components/posts/SearchBar'
 import ProfileCard from './components/card/Profile'
 import WhoToFollow from './components/card/WhoToFollow'
-import './abc.css'
+import './App.css'
 
 export default class App extends Component {
   render() {

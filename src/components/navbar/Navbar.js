@@ -50,28 +50,30 @@ const Navbar = () => (
                 </div>
 
                 <div>
-                    <input 
-                    type="text"
-                    placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search Twitter"
-                    style={{
-                        border: '0px',
-                        borderRadius: '30px',
-                        position: 'absolute',
-                        left: '1045px',
-                        paddingTop: '7px',
-                        paddingBottom: '7px',
-                        color: '#73818a',
-                        backgroundColor: 'rgb(245,248,250)',
-                    }}
-                    />
+                    <form method="get" action="/search">
+                        <input 
+                        type="text"
+                        placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search Twitter"
+                        style={{
+                            border: '0px',
+                            borderRadius: '30px',
+                            position: 'absolute',
+                            left: '1045px',
+                            paddingTop: '7px',
+                            paddingBottom: '7px',
+                            color: '#73818a',
+                            backgroundColor: 'rgb(245,248,250)',
+                        }}
+                        />
+                    </form>
                     <img 
                     src="./imgs/search.svg" 
                     height="15px" 
                     alt="Search Icon"
                     style={{
-                        position: 'absolute',
-                        left: '1220px',
-                        paddingTop: '9px'
+                        position: 'relative',
+                        top: '-23px',
+                        left: '-97px'
                     }}
                     />
                 </div>
@@ -79,9 +81,9 @@ const Navbar = () => (
                 <Avatar 
                 src="imgs/profile.jpg"
                 style={{
-                    position: 'absolute',
-                    left: '1253px',
-                    paddingTop: '2px'
+                    position: 'relative',
+                    top: '-50px',
+                    left: '-50px',
                 }} 
                 size={30}
                 />

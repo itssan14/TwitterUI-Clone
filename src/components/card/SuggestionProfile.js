@@ -24,7 +24,7 @@ export default class SuggestionProfile extends Component {
             <div style={{ position:'relative', top:'-35px', left: '40px'}}>
               <b>{Uname}</b>
               <span style={{ fontWeight: '100' ,fontSize: '13px',color: '#b1adab'}}>&nbsp;&nbsp;&nbsp;{Utag}</span>
-              <span>&nbsp;&nbsp;&nbsp;x</span>
+              <span style={{marginLeft: '30px'}}>x</span>
             </div>
             <div style={{ position: 'relative', top: '-25px', left: '40px'}}>
               <div className="roundButton">

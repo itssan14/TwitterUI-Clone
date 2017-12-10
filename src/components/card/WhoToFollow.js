@@ -13,9 +13,9 @@ export default class WhoToFollow extends Component {
                 <b style={{fontSize: '18px'}}>Who To Follow</b>&nbsp;&nbsp;
                 <span style={{color: '#1da1f2', fontSize: '14px'}}>&nbsp;&nbsp;&nbsp;&nbsp;Refresh &nbsp;&nbsp;View All</span>
               <br /><br/>
-              <SuggestionProfile image="2" title="The Rum Ham" Utag="TheRum..."/>
+              <SuggestionProfile image="2" title="The Rum Ham " Utag="TheRum..."/>
               <SuggestionProfile image="3" title="Chennai Weather" Utag="chenn..."/>
-              <SuggestionProfile image="5" title="Lamborgini" Utag="Lamborg..."/>
+              <SuggestionProfile image="5" title="Lamborgini Car" Utag="Lambor..."/>
             </div>
           </Paper>
         </div>
