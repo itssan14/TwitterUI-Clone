@@ -45,7 +45,8 @@ To generate a static version of the site :
 * Material-UI -^0.20.0
 * Normalize-CSS -^2.3.1(Browser Reset)
 * React-Snapshot -^1.3.0(Static site rendering)
- 
+* React-Router-DOM -^4.2.2
+
 ---
 ## Application Info
 ### Author
@@ -53,4 +54,4 @@ Sanjay - [GitHub](https://github.com/itssan14) - [Medium Blog]() - [Twitter](htt
 ### Version
 1.0.0
 ### License
-MIT License
+ISC License

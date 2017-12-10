@@ -35,7 +35,6 @@ const SearchBar = () => (
           }}
           placeholder="  Whats happening ?"
         />
-        <img src="" style={{ }}/>
       </Paper>
     </MuiThemeProvider>
   </div>
