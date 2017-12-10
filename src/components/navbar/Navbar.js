@@ -29,7 +29,7 @@ const Navbar = () => (
             </div>
         }
         iconElementRight= {
-            <div style={{paddingRight: '150px'}}>
+            <div style={{paddingRight: '140px'}}>
 
                 <div style={{paddingTop : '7px'}}>
                     <button 

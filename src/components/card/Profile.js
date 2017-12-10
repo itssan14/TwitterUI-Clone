@@ -41,7 +41,7 @@ class ProfileCard extends Component {
                 </div>
               </div>
             </div>
-          </Paper>
+          </Paper><br/>
           <InfoCard CardHead="Trends for you"/>
       </MuiThemeProvider>
     )

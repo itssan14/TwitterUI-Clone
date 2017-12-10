@@ -30,9 +30,12 @@ const SearchBar = () => (
             left: '15px',top: '-11px', 
             paddingRight: '320px', 
             paddingTop: '9px',
-            paddingBottom: '9px'
-          }} 
+            paddingBottom: '9px',
+            color: '#1da1f2'
+          }}
+          placeholder="  Whats happening ?"
         />
+        <img src="" style={{ }}/>
       </Paper>
     </MuiThemeProvider>
   </div>
