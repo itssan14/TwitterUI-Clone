@@ -11,10 +11,10 @@ const Navbar = () => (
     <MuiThemeProvider>
         <AppBar
         title={<img src="./imgs/logo.png" alt="Twitter Logo" height="25px" width="max-width"/>}
-        titleStyle={{paddingLeft: '205px'}}
+        titleStyle={{ paddingLeft: '15%' }}
         style={{
-        "backgroundColor": "white",
-        "height": "56px"
+            backgroundColor: "white",
+            height: "56px"
         }}
         iconElementLeft= {
             <div style={{paddingLeft: "100px"}}>
@@ -28,7 +28,7 @@ const Navbar = () => (
                                 label="Home"
                                 className="navitemFirst"
                                 icon={
-                                    <i class="material-icons">home</i>
+                                    <i className="material-icons">home</i>
                                 }
                             />
                         } 
@@ -40,7 +40,7 @@ const Navbar = () => (
                             label="Notifications"
                             className="navitem"                            
                             icon={
-                                <i class="material-icons">notifications</i>
+                                <i className="material-icons">notifications</i>
                             }
                         />
                     } 
@@ -52,7 +52,7 @@ const Navbar = () => (
                             label="Messages"
                             className="navitem"                            
                             icon={
-                                <i class="material-icons">message</i>
+                                <i className="material-icons">message</i>
                             }
                         />
                     } 
@@ -64,63 +64,49 @@ const Navbar = () => (
         }
         iconElementRight= {
             <div style={{paddingRight: '140px'}}>
-
-                <div style={{paddingTop : '7px'}}>
-                    <button 
+                <button 
                     style={{
                         float: 'right',
                         border: '0',                  
-                        borderRadius: '75px',
                         paddingLeft:  '15px',
+                        borderRadius: '75px',
                         paddingRight: '15px',
-                        paddingTop: '7px',
+                        paddingTop: '11px',
                         paddingBottom: '7px',
                         color: 'white',
                         backgroundColor: '#1da1f2'
                     }}
-                    >
+                >
                     <b>Tweet</b>
-                    </button>
-                </div>
-
-                <div>
-                    <form method="get" action="/search">
-                        <input 
-                        type="text"
-                        placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search Twitter"
-                        style={{
-                            border: '0px',
-                            borderRadius: '30px',
-                            position: 'absolute',
-                            left: '1045px',
-                            paddingTop: '7px',
-                            paddingBottom: '7px',
-                            color: '#73818a',
-                            backgroundColor: 'rgb(245,248,250)',
-                        }}
-                        />
-                    </form>
-                    <img 
-                    src="./imgs/search.svg" 
-                    height="15px" 
-                    alt="Search Icon"
+                </button>
+                <div 
                     style={{
-                        position: 'relative',
-                        top: '-23px',
-                        left: '-97px'
+                        float: 'left',
+                        paddingRight: '10px',
+                        paddingTop: '5px'
                     }}
+                >
+                    <Avatar 
+                        src="imgs/profile.jpg" 
+                        size={30}
                     />
+                    <div style={{ float: 'left', paddingRight: '3px'}}>
+                        <form method="get" action="/search">
+                            <input 
+                                type="text"
+                                placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search Twitter"
+                                style={{
+                                    border: '0px',
+                                    borderRadius: '30px',
+                                    paddingTop: '7px',
+                                    paddingBottom: '7px',
+                                    color: '#73818a',
+                                    backgroundColor: 'rgb(245,248,250)',
+                                }}
+                            />
+                        </form>
+                    </div>
                 </div>
-
-                <Avatar 
-                src="imgs/profile.jpg"
-                style={{
-                    position: 'relative',
-                    top: '-50px',
-                    left: '-50px',
-                }} 
-                size={30}
-                />
             </div>
         }
         />
