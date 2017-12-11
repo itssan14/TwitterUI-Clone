@@ -1,9 +1,10 @@
 //Importing Packages For ReactJS
 import React from 'react'
-import {render} from 'react-snapshot'
+import ReactDOM from 'react-dom'
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
 import 'normalize-css'
 import registerServiceWorker from './registerServiceWorker'
+
 //Additional Imports 
 import App from './App'
 import ResultsPage from './Results'
@@ -15,6 +16,7 @@ const nomatch = () => (
     </center>
   </div>
 )
+
 const Router = () => (
   <BrowserRouter>
     <Switch>
@@ -26,5 +28,5 @@ const Router = () => (
 )
 //Render Elements from React
 
-render(<Router />, document.querySelector('#root'))
+ReactDOM.render(<Router />, document.querySelector('#root'))
 registerServiceWorker()

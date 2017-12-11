@@ -6,9 +6,9 @@ A twitter UI clone using ***ReactJS*** of the following pages :-
 A live version of the site is available at :
   * [Live Version](https://twitui-clone.herokuapp.com/)
 
-Read my experience building this : [Medium Article]()
+Read my experience building this : [Medium Article](https://medium.com/@itssan14/journey-through-hpdf-task-1-d8c5fbdd380a)
 
-This project is a part of my Internship at [Hasura](https://hasura.io/)
+This project is a part of my product development fellowship with [Hasura](https://hasura.io/)
 
 ---
 ## Getting Started
@@ -31,8 +31,8 @@ This project is a part of my Internship at [Hasura](https://hasura.io/)
 A development version of the webapge will be started at PORT 3000 :<br>
 http://localhost:3000/
 
-**BUILDING STATIC ASSETS** : <br>
-To generate a static version of the site :
+**BUILDING FOR PRODUTION** : <br>
+To generate a production version of the site :
   ```sh
     npm build 
   ```
@@ -43,13 +43,12 @@ To generate a static version of the site :
 * React-Scripts -^1.0.17
 * Material-UI -^0.20.0
 * Normalize-CSS -^2.3.1(Browser Reset)
-* React-Snapshot -^1.3.0(Static site rendering)
 * React-Router-DOM -^4.2.2
 
 ---
 ## Application Info
 ### Author
-Sanjay - [GitHub](https://github.com/itssan14) - [Medium Blog]() - [Twitter](https://twitter.com/itssan14)
+Sanjay - [GitHub](https://github.com/itssan14) - [Twitter](https://twitter.com/itssan14)
 ### Version
 1.0.0
 ### License
