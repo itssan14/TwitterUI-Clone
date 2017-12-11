@@ -16,21 +16,21 @@ export default class Posts extends Component {
                 />
 
                 <Post 
-                    UserName="Marques Brownlee" 
-                    Tag="@mkbhd"
-                    Img="mkbhd"
-                    PostImg="pic1" 
-                    content="Snowy weather snowy wheels"
+                    UserName="Narendra Modi" 
+                    Tag="@narendramodi"
+                    Img="namo"
+                    PostImg="glimpses" 
+                    content="Glimpses from today's rally in Nadiad "
                     time="2h"
                 />
 
                 <Post 
-                    UserName="Marques Brownlee" 
-                    Tag="@mkbhd"
-                    Img="mkbhd"
-                    PostImg="pic1" 
-                    content="Snowy weather snowy wheels"
-                    time="3h"
+                    UserName="Mateus Zatorski" 
+                    Tag="@matzatorski"
+                    Img="mat"
+                    PostImg="matpost" 
+                    content="Here is how to get started with React app"
+                    time="3m"
                 />
             </div>
 
