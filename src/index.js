@@ -26,5 +26,5 @@ const Router = () => (
 )
 //Render Elements from React
 
-render(<Router />, document.getElementById('root'))
+render(<Router />, document.querySelector('#root'))
 registerServiceWorker()
