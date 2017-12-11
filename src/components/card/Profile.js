@@ -8,6 +8,7 @@ class ProfileCard extends Component {
   render() {
     return (
       <MuiThemeProvider>
+        <div style={{ display: "inline"}}>
           <Paper style={{ width: "300px", height: '280px' }}>
             <div style={{height: '50%', backgroundColor: '#1DA1F2 '}}>
             </div>
@@ -43,6 +44,7 @@ class ProfileCard extends Component {
             </div>
           </Paper><br/>
           <InfoCard CardHead="Trends for you"/>
+        </div>
       </MuiThemeProvider>
     )
   }

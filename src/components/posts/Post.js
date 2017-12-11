@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Card, CardActions, CardHeader, CardMedia} from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import MUIThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import './Post.css'
 
 export default class Post extends Component {
   render() {
@@ -34,8 +35,10 @@ export default class Post extends Component {
               <img src={PostImg} alt="Preview"/>
             </CardMedia>
             <CardActions>
-              <FlatButton label="Action1" />
-              <FlatButton label="Action2" />
+              <FlatButton icon={<i className="material-icons">comment</i>} />
+              <FlatButton icon={<i className="material-icons">autorenew</i>} />
+              <FlatButton icon={<i className="material-icons">favorite_border</i>} />
+              <FlatButton icon={<i className="material-icons">email</i>} />
             </CardActions>
           </Card>
         </MUIThemeProvider>

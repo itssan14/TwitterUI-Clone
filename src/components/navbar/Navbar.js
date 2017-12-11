@@ -3,6 +3,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import AppBar from 'material-ui/AppBar'
 import {Tabs, Tab} from 'material-ui/Tabs'
 import Avatar from 'material-ui/Avatar'
+import FlatButton from 'material-ui/FlatButton';
+import FontIcon from 'material-ui/FontIcon';
 import './Navbar.css'
 /* Navigation Bar*/
 const Navbar = () => (
@@ -10,7 +12,7 @@ const Navbar = () => (
     <MuiThemeProvider>
         <AppBar
         title={<img src="./imgs/logo.png" alt="Twitter Logo" height="25px" width="max-width"/>}
-        titleStyle={{paddingLeft: '320px'}}
+        titleStyle={{paddingLeft: '205px'}}
         style={{
         "backgroundColor": "white",
         "height": "56px"
@@ -18,14 +20,47 @@ const Navbar = () => (
         iconElementLeft= {
             <div style={{paddingLeft: "100px"}}>
                 <Tabs 
-                tabItemContainerStyle={{width: '300px'}}
+                tabItemContainerStyle={{width: '400px'}}
                 inkBarStyle={{'backgroundColor': '#1da1f2'}}
                 contentContainerStyle={{ color: "white"}}
                 >
-                    <Tab label="Home" className="navitem" data-route="/home"/>
-                    <Tab label="Notifications" className="navitem" data-route="/notifications"/>
-                    <Tab label="Messages" className="navitem" data-route="/messages"/>
-                </Tabs>
+                    <Tab label={
+                            <FlatButton
+                                label="Home"
+                                className="navitemFirst"
+                                icon={
+                                    <i class="material-icons">home</i>
+                                }
+                            />
+                        } 
+                        className="navitem" 
+                        data-route="/home"
+                    />
+                    <Tab label={
+                        <FlatButton
+                            label="Notifications"
+                            className="navitem"                            
+                            icon={
+                                <i class="material-icons">notifications</i>
+                            }
+                        />
+                    } 
+                    className="navitem" 
+                    data-route="/home"
+                />                    
+                    <Tab label={
+                        <FlatButton
+                            label="Messages"
+                            className="navitem"                            
+                            icon={
+                                <i class="material-icons">message</i>
+                            }
+                        />
+                    } 
+                    className="navitem" 
+                    data-route="/home"
+                />   
+            </Tabs>
             </div>
         }
         iconElementRight= {
