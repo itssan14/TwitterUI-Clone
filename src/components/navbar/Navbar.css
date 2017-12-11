@@ -6,6 +6,7 @@
 /* Actions on Navitems */
 .navitemFirst{
     color: #1da1f2 !important;
+    background-color: white !important;
 }
 .navitem:active {
     color: #1da1f2 !important;

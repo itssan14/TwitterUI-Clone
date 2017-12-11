@@ -19,9 +19,9 @@ const Navbar = () => (
         iconElementLeft= {
             <div style={{paddingLeft: "100px"}}>
                 <Tabs 
-                tabItemContainerStyle={{width: '400px'}}
-                inkBarStyle={{'backgroundColor': '#1da1f2'}}
-                contentContainerStyle={{ color: "white"}}
+                    tabItemContainerStyle={{width: '400px'}}
+                    inkBarStyle={{'backgroundColor': '#1da1f2'}}
+                    contentContainerStyle={{ color: "white"}}
                 >
                     <Tab label={
                             <FlatButton
