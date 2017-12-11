@@ -4,9 +4,8 @@ import AppBar from 'material-ui/AppBar'
 import {Tabs, Tab} from 'material-ui/Tabs'
 import Avatar from 'material-ui/Avatar'
 import FlatButton from 'material-ui/FlatButton';
-import FontIcon from 'material-ui/FontIcon';
 import './Navbar.css'
-/* Navigation Bar*/
+
 const Navbar = () => (
 <nav>
     <MuiThemeProvider>
