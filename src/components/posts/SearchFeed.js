@@ -27,8 +27,8 @@ export default class Posts extends Component {
                 <Post 
                     UserName="Ankit" 
                     Tag="@Ankitaker"
-                    Img="aadh3"
-                    PostImg="aadh3prof" 
+                    Img="aadh3prof"
+                    PostImg="aadh3" 
                     content="Hrithik Roshan' s Aadhar Card pic is way more beautiful than other stars Twitter DP😛"
                     time="40m"
                 />      
